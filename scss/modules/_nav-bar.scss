@@ -4,6 +4,7 @@
 
 .navbar {
     height: 100vh;
+    min-height: 100%;
     float: left;
     background-color: aqua;
     z-index: 2;
@@ -12,8 +13,9 @@
     padding: 0;
     display: none;
     flex-direction: column;
-    position: static;
+    position: fixed;
     width: 200px;
+    border-right: 5px solid yellow;
 }
 
 .nav-logo {

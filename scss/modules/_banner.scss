@@ -1,3 +1,43 @@
 // ==========================================================================
 //  Banner Styles
 // ==========================================================================
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner {
+    background-color: aquamarine;
+    background-image: url(../img/heroimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin: auto;
+}
+
+.scroll-down {
+    position: absolute;
+    color: white;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    bottom: 0;
+}
+
+// Media Queries
+.banner-container {
+    @media (min-width: 768px) {
+        width: calc(100% - 200px);
+        float: right;
+    }
+}

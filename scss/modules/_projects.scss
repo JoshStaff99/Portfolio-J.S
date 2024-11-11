@@ -1,0 +1,23 @@
+// ==========================================================================
+//  Projects Styles
+// ==========================================================================
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+// Media Queries
+.projects-container {
+    @media (min-width: 768px) {
+        width: calc(100% - 200px);
+        float: right;
+    }
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+

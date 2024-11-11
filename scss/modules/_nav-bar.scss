@@ -1,0 +1,41 @@
+// ==========================================================================
+//  Nav Bar Styles
+// ==========================================================================
+
+.navbar {
+    height: 100vh;
+    float: left;
+    background-color: aqua;
+    z-index: 2;
+    border-top: 10px solid yellow;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo {
+    text-align: center;
+}
+
+.nav-links {
+    ul {
+        list-style: none;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+    li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.contact-me {
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

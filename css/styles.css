@@ -189,4 +189,22 @@ a {
   .project-container {
     width: 33.33333333%;
   }
+}
+
+.form-section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .form-section-container {
+    width: calc(100% - 200px);
+    float: right;
+  }
+}
+@media (min-width: 992px) {
+  .form-section-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=styles.css.map */

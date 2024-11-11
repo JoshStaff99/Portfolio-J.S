@@ -10,8 +10,10 @@
     border-top: 10px solid yellow;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: none;
     flex-direction: column;
+    position: static;
+    width: 200px;
 }
 
 .nav-logo {
@@ -38,4 +40,16 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.nav-socials {
+    text-align: center;
+    padding-top: 10px;
+}
+
+// Media Queries
+.navbar {
+    @media (min-width: 768px) {
+        display:flex
+    }
 }

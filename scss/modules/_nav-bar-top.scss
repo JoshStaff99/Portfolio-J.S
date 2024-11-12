@@ -1,0 +1,53 @@
+// ==========================================================================
+//  Nav Bar Top Styles
+// ==========================================================================
+.navbar-top-container {
+    display: none;
+    flex-direction: row;
+    background-color: aqua;
+    height: 100px;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-top-logo {
+    text-align: center;
+    align-self: center;
+    width: 70%;
+}
+
+.nav-top-burgermenu {
+    display: flex;
+    width: 30%;
+    align-self: center;
+    height: 100%;
+    span {
+        align-self: center;
+    }
+}
+
+.icon-menu {
+    margin-left: 20px;
+    max-width: 100%;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333645;
+    font-size: 2rem;
+    align-self: center;
+}
+
+// Hover effect
+.nav-top-burgermenu {
+    :hover {
+        background-color: bisque;
+    }
+}
+
+// Media Queries
+.navbar-top-container {
+    @media (max-width: 767px) {
+        display: flex;
+    }
+}

@@ -43,12 +43,91 @@ a {
   color: #fff;
 }
 
+.icon-menu:before {
+  content: "\e9bd";
+}
+
 .icon-linkedin2:before {
   content: "\eaca";
 }
 
 .icon-github:before {
   content: "\eab0";
+}
+
+.navbar-top-container {
+  display: none;
+  flex-direction: row;
+  background-color: aqua;
+  height: 100px;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-top-logo {
+  text-align: center;
+  align-self: center;
+  width: 70%;
+}
+
+.nav-top-burgermenu {
+  display: flex;
+  width: 30%;
+  align-self: center;
+  height: 100%;
+}
+.nav-top-burgermenu span {
+  align-self: center;
+}
+
+.icon-menu {
+  margin-left: 20px;
+  max-width: 100%;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #333645;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.nav-top-burgermenu :hover {
+  background-color: bisque;
+}
+
+@media (max-width: 767px) {
+  .navbar-top-container {
+    display: flex;
+  }
+}
+
+.nav-top-dropdown-menu-container {
+  display: none;
+  background-color: burlywood;
+  list-style: none;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+}
+.nav-top-dropdown-menu-container ul {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.nav-top-dropdown-menu-container li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-top-burgermenu:hover + .nav-top-dropdown-menu-container {
+  display: flex;
+}
+
+.nav-top-dropdown-menu-container:hover {
+  display: flex;
 }
 
 .navbar {

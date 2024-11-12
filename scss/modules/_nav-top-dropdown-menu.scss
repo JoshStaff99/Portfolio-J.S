@@ -1,0 +1,37 @@
+// ==========================================================================
+//  Nav Dropdown Menu Styles
+// ==========================================================================
+.nav-top-dropdown-menu-container {
+    display: none;
+    background-color: burlywood;
+    list-style: none;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    ul {
+        width: 100%;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+// Hover Effect
+.nav-top-burgermenu:hover + .nav-top-dropdown-menu-container {
+          display: flex;
+            
+}
+
+.nav-top-dropdown-menu-container:hover {
+        display: flex;
+}
+
+
+// Media Queries
+
+

@@ -1,0 +1,19 @@
+// ==========================================================================
+//  About Me Styles
+// ==========================================================================
+.about-me-container {
+    background-color: #091057;
+    height: 100vh;
+    margin: 0;
+}
+
+.about-me {
+    height: 100%;
+}
+// Media Queries
+.about-me-container {
+    @media (min-width: 768px) {
+        width: calc(100% - 200px);
+        float: right;
+    }
+}

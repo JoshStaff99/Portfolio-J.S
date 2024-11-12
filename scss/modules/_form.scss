@@ -4,7 +4,9 @@
 .form-section-container {
     display: flex;
     flex-direction: column;
-    background-color: darkslateblue;
+    background-color: #091057;
+    color: #DBD3D3;
+    padding-bottom: 20px;
 }
 
 .form-paragraph-container {
@@ -19,6 +21,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     padding: 5px;
+    background-color: #024CAA;
     form {
         padding: 8px;
     }

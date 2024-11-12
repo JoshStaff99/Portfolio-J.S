@@ -6,16 +6,20 @@
     height: 100vh;
     min-height: 100%;
     float: left;
-    background-color: aqua;
+    background-color: #091057;
     z-index: 2;
-    border-top: 10px solid yellow;
+    border-top: 10px solid #024CAA;
     margin: 0;
     padding: 0;
     display: none;
     flex-direction: column;
     position: fixed;
     width: 200px;
-    border-right: 5px solid yellow;
+    border-right: 5px solid #024CAA;
+    color: #DBD3D3;
+    a {
+        color: #DBD3D3;
+    }
 }
 
 .nav-logo {
@@ -37,8 +41,8 @@
 }
 
 .contact-me {
-    border-top: 5px solid yellow;
-    border-bottom: 5px solid yellow;
+    border-top: 5px solid #024CAA;
+    border-bottom: 5px solid #024CAA;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;

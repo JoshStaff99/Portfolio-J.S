@@ -11,6 +11,22 @@ a {
   text-decoration: none;
 }
 
+.navy {
+  background-color: #091057;
+}
+
+.blue {
+  background-color: #024CAA;
+}
+
+.orange {
+  background-color: #EC8305;
+}
+
+.grey {
+  color: #DBD3D3;
+}
+
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?ky9gej");
@@ -58,11 +74,17 @@ a {
 .navbar-top-container {
   display: none;
   flex-direction: row;
-  background-color: aqua;
+  background-color: #091057;
   height: 100px;
   text-align: center;
   justify-content: space-between;
   position: relative;
+  border-left: 5px solid #024CAA;
+  border-right: 5px solid #024CAA;
+  border-color: #024CAA;
+}
+.navbar-top-container a {
+  color: #DBD3D3;
 }
 
 .nav-top-logo {
@@ -87,13 +109,13 @@ a {
   color: #fff;
   padding: 15px;
   border-radius: 5px;
-  background-color: #333645;
+  background-color: #024CAA;
   font-size: 2rem;
   align-self: center;
 }
 
 .nav-top-burgermenu :hover {
-  background-color: bisque;
+  background-color: #EC8305;
 }
 
 @media (max-width: 767px) {
@@ -134,16 +156,20 @@ a {
   height: 100vh;
   min-height: 100%;
   float: left;
-  background-color: aqua;
+  background-color: #091057;
   z-index: 2;
-  border-top: 10px solid yellow;
+  border-top: 10px solid #024CAA;
   margin: 0;
   padding: 0;
   display: none;
   flex-direction: column;
   position: fixed;
   width: 200px;
-  border-right: 5px solid yellow;
+  border-right: 5px solid #024CAA;
+  color: #DBD3D3;
+}
+.navbar a {
+  color: #DBD3D3;
 }
 
 .nav-logo {
@@ -163,8 +189,8 @@ a {
 }
 
 .contact-me {
-  border-top: 5px solid yellow;
-  border-bottom: 5px solid yellow;
+  border-top: 5px solid #024CAA;
+  border-bottom: 5px solid #024CAA;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -188,7 +214,7 @@ a {
 }
 
 .banner {
-  background-color: aquamarine;
+  background-color: #091057;
   background-image: url(../img/heroimg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -229,17 +255,18 @@ a {
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: brown;
+  background-color: #091057;
+  color: #DBD3D3;
 }
 
 .project-container {
-  background-color: darkred;
+  background-color: #024CAA;
   padding: 5px;
 }
 
 .projects-item {
   display: flex;
-  background-color: blue;
+  background-color: #091057;
   flex-direction: column;
 }
 
@@ -247,7 +274,7 @@ a {
   display: flex;
   width: 100%;
   height: 300px;
-  background-color: aqua;
+  background-color: #DBD3D3;
   align-self: center;
 }
 
@@ -273,7 +300,9 @@ a {
 .form-section-container {
   display: flex;
   flex-direction: column;
-  background-color: darkslateblue;
+  background-color: #091057;
+  color: #DBD3D3;
+  padding-bottom: 20px;
 }
 
 .form-paragraph-container {
@@ -288,6 +317,7 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 5px;
+  background-color: #024CAA;
 }
 .form-list-container form {
   padding: 8px;
@@ -356,8 +386,9 @@ a {
 
 .footer-container {
   display: flex;
-  background-color: aquamarine;
+  background-color: #091057;
   height: 60px;
+  border-top: 5px solid #024CAA;
 }
 
 .back-to-top {
@@ -371,11 +402,28 @@ a {
 }
 
 .back-to-top-btn {
-  color: black;
+  color: #DBD3D3;
 }
 
 @media (min-width: 768px) {
   .footer-container {
+    width: calc(100% - 200px);
+    float: right;
+  }
+}
+
+.about-me-container {
+  background-color: #091057;
+  height: 100vh;
+  margin: 0;
+}
+
+.about-me {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .about-me-container {
     width: calc(100% - 200px);
     float: right;
   }

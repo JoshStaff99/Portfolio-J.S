@@ -1,0 +1,23 @@
+// ==========================================================================
+// Coding Examples Styles
+// ==========================================================================
+.coding-examples-container {
+    background-color: #024CAA;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    color: #DBD3D3;
+}
+
+
+
+// Media Queries
+.coding-examples-container {
+    @media (min-width: 768px) {
+        width: calc(100% - 200px);
+        float: right;
+    }
+}

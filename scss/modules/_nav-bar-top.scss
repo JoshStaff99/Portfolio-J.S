@@ -4,16 +4,15 @@
 .navbar-top-container {
     display: none;
     flex-direction: row;
-    background-color: #091057;
+    background-color: #CCDDE2;
     height: 100px;
     text-align: center;
     justify-content: space-between;
     position: relative;
-    border-left: 5px solid #024CAA;
-    border-right: 5px solid #024CAA;
-    border-color: #024CAA;
+    border-left: 5px solid #48ACF0;
+    border-right: 5px solid #48ACF0;
     a {
-        color: #DBD3D3;
+        color: #80727B;
     }
 }
 
@@ -36,10 +35,10 @@
 .icon-menu {
     margin-left: 20px;
     max-width: 100%;
-    color: #fff;
+    color: #80727B;
     padding: 15px;
     border-radius: 5px;
-    background-color: #024CAA;
+    background-color: #48ACF0;
     font-size: 2rem;
     align-self: center;
 }
@@ -47,7 +46,7 @@
 // Hover effect
 .nav-top-burgermenu {
     :hover {
-        background-color: #EC8305;
+        background-color: #091057;
     }
 }
 

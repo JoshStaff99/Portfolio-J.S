@@ -2,7 +2,7 @@
 //  About Me Styles
 // ==========================================================================
 .about-me-container {
-    background-color: #024CAA;
+    background-color: #CCDDE2;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -16,15 +16,17 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    color: #DBD3D3;
-    background-color: #091057;
+    color: #80727B;
+    background-color: #CCDDE2;
     padding: 5px;
-    border: 5px solid #024CAA;
+    border: 5px solid #CCDDE2;
 }
 
 .skills-container {
     text-align: center;
-    border: 5px solid #024CAA;
+    border: 5px solid #48ACF0;
+    background-color: #301A4B;
+    padding: 5px;
     ul {
         padding: 0;
         list-style: none;
@@ -33,8 +35,11 @@
 
 .my-info-container {
     text-align: center;
-    border: 5px solid #024CAA;
+    border: 5px solid #48ACF0;
     align-self: center;
+    margin-top: 20px;
+    background-color: #301A4B;
+    padding: 5px;
     ul {
         padding: 0;
         list-style: none

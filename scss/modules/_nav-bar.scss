@@ -6,19 +6,19 @@
     height: 100vh;
     min-height: 100%;
     float: left;
-    background-color: #091057;
+    background-color: #CCDDE2;
     z-index: 2;
-    border-top: 10px solid #024CAA;
+    border-top: 10px solid #48ACF0;
     margin: 0;
     padding: 0;
     display: none;
     flex-direction: column;
     position: fixed;
     width: 200px;
-    border-right: 5px solid #024CAA;
-    color: #DBD3D3;
+    border-right: 5px solid #48ACF0;
+    color: #80727B;
     a {
-        color: #DBD3D3;
+        color: #80727B;
     }
 }
 
@@ -41,8 +41,8 @@
 }
 
 .contact-me {
-    border-top: 5px solid #024CAA;
-    border-bottom: 5px solid #024CAA;
+    border-top: 5px solid #48ACF0;
+    border-bottom: 5px solid #48ACF0;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;

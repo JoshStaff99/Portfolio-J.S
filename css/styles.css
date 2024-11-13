@@ -481,4 +481,32 @@ a {
     width: calc(100% - 200px);
     float: right;
   }
+}
+
+.scs-scheme-page-container {
+  background-color: #024CAA;
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  color: #DBD3D3;
+}
+
+.section-container {
+  background-color: #091057;
+  margin: 10px;
+  border: 5px solid #EC8305;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .scs-scheme-page-container {
+    width: calc(100% - 200px);
+    float: right;
+  }
 }/*# sourceMappingURL=styles.css.map */

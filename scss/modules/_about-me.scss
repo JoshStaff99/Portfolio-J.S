@@ -2,18 +2,56 @@
 //  About Me Styles
 // ==========================================================================
 .about-me-container {
-    background-color: #091057;
+    background-color: #024CAA;
     height: 100vh;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
 }
 
 .about-me {
-    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #DBD3D3;
+    background-color: #091057;
+    padding: 5px;
+    border: 5px solid #024CAA;
 }
+
+.skills-container {
+    text-align: center;
+    border: 5px solid #024CAA;
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.my-info-container {
+    text-align: center;
+    border: 5px solid #024CAA;
+    align-self: center;
+    ul {
+        padding: 0;
+        list-style: none
+    }
+}
+
+
 // Media Queries
 .about-me-container {
     @media (min-width: 768px) {
         width: calc(100% - 200px);
         float: right;
+    }
+}
+
+.about-me {
+    @media (min-width: 1200px) {
+        max-width: 80%;
     }
 }

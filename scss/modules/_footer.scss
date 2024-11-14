@@ -3,8 +3,9 @@
 // ==========================================================================
 .footer-container {
     display: flex;
+    flex-direction: column;
     background-color: #CCDDE2;
-    height: 60px;
+    height: auto;
     border-top: 5px solid #48ACF0;
 }
 
@@ -13,8 +14,9 @@
     display: flex;
     align-self: center;
     text-align: center;
-    margin: auto;
+    margin: 0;
     padding: 0;
+    padding-bottom: 30px;
     font-size: 30px;
 }
 
@@ -22,6 +24,14 @@
     color: #80727B;
 }
 
+.copyright-footer {
+    display: flex;
+    align-self: center;
+    color: #80727B;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 // Media Queries
 .footer-container {

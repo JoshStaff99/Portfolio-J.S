@@ -103,6 +103,9 @@ a {
 .navbar-top-container a {
   color: #80727B;
 }
+.navbar-top-container h2 {
+  font-size: 50px;
+}
 
 .nav-top-logo {
   text-align: center;
@@ -214,6 +217,7 @@ a {
 
 .nav-logo {
   text-align: center;
+  font-size: 50px;
 }
 
 .nav-links ul {
@@ -239,6 +243,13 @@ a {
 .nav-socials {
   text-align: center;
   padding-top: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.navbar h2 a:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -438,8 +449,9 @@ a {
 
 .footer-container {
   display: flex;
+  flex-direction: column;
   background-color: #CCDDE2;
-  height: 60px;
+  height: auto;
   border-top: 5px solid #48ACF0;
 }
 
@@ -448,13 +460,23 @@ a {
   display: flex;
   align-self: center;
   text-align: center;
-  margin: auto;
+  margin: 0;
   padding: 0;
+  padding-bottom: 30px;
   font-size: 30px;
 }
 
 .back-to-top-btn {
   color: #80727B;
+}
+
+.copyright-footer {
+  display: flex;
+  align-self: center;
+  color: #80727B;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {

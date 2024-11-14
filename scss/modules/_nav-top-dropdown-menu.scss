@@ -23,7 +23,6 @@
 
 // Triangle
 .triangle {
-    display: inline-block;
     position: relative;
     z-index: 20;
     width: 0px;
@@ -32,30 +31,29 @@
     border-width: 30px;
     border-color: #48ACF0 transparent transparent transparent;
     transform: rotate(0deg);
-    left: 498px;
     display: none;
-    top: -20px
+    top: 59px;
+    right: 61px;
  }
 
 
 // Hover Effect
 .nav-top-burgermenu:hover + .nav-top-dropdown-menu-container {
           display: flex;
-          .triangle {
-            display: inline-flex;
-            border-color: #48ACF0 transparent transparent transparent;
-          }
+          background-color: #48ACF0;
             
 }
 
 .nav-top-dropdown-menu-container:hover {
         display: flex;
-        .triangle {
-            display: inline-flex;
-            border-color: #48ACF0 transparent transparent transparent;
-        }
+        background-color: #48ACF0;
 }
 
+.nav-top-dropdown-menu-container {
+    a:hover {
+        text-decoration: underline;
+    }
+}
 
 // Media Queries
 

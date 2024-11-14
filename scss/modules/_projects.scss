@@ -33,6 +33,13 @@
     align-self: center;
 }
 
+.project-img {
+    display: flex;
+    width: 100%;
+    border: 5px solid #48ACF0;
+    border-radius: 5px;
+}
+
 // Media Queries
 .projects-list-container {
     @media (min-width: 768px) {

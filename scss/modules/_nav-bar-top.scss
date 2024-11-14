@@ -28,7 +28,7 @@
 
 .nav-top-burgermenu {
     display: flex;
-    width: 30%;
+    width: auto;
     align-self: center;
     height: 100%;
     span {
@@ -38,7 +38,6 @@
 
 .icon-menu {
     position: relative;
-    margin-left: 20px;
     max-width: 100%;
     color: #80727B;
     padding: 36px;

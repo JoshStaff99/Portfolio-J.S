@@ -14,7 +14,7 @@
 }
 
 .project-container {
-    background-color: #48ACF0;
+    background-color: #CCDDE2;
     padding: 5px;
 }
 
@@ -39,6 +39,14 @@
     border: 5px solid #48ACF0;
     border-radius: 5px;
 }
+
+.project-text {
+    background-color: #301A4B;
+    border: 5px solid #48ACF0;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
 
 // Media Queries
 .projects-list-container {

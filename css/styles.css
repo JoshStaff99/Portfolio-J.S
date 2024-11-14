@@ -115,7 +115,7 @@ a {
 
 .nav-top-burgermenu {
   display: flex;
-  width: 30%;
+  width: auto;
   align-self: center;
   height: 100%;
 }
@@ -125,7 +125,6 @@ a {
 
 .icon-menu {
   position: relative;
-  margin-left: 20px;
   max-width: 100%;
   color: #80727B;
   padding: 36px;
@@ -316,7 +315,7 @@ a {
 }
 
 .project-container {
-  background-color: #48ACF0;
+  background-color: #CCDDE2;
   padding: 5px;
 }
 
@@ -339,6 +338,13 @@ a {
   display: flex;
   width: 100%;
   border: 5px solid #48ACF0;
+  border-radius: 5px;
+}
+
+.project-text {
+  background-color: #301A4B;
+  border: 5px solid #48ACF0;
+  padding-left: 10px;
   border-radius: 5px;
 }
 

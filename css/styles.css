@@ -124,12 +124,13 @@ a {
 }
 
 .icon-menu {
+  position: relative;
   margin-left: 20px;
   max-width: 100%;
   color: #80727B;
-  padding: 35px;
-  padding-right: 130px;
-  padding-left: 50px;
+  padding: 36px;
+  padding-right: 30px;
+  padding-left: 30px;
   border-radius: 5px;
   background-color: #48ACF0;
   font-size: 2rem;
@@ -405,12 +406,13 @@ a {
   height: 100px;
 }
 
-.form-btn {
-  padding: 18px;
+.form-btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .btn-submit {
-  margin-left: 8px;
   padding: 15px;
   width: 250px;
 }

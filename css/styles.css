@@ -590,6 +590,13 @@ a {
   border: 5px solid #48ACF0;
   padding: 5px;
 }
+.section-container a {
+  color: #80727B;
+}
+
+.section-container a:hover {
+  text-decoration: underline;
+}
 
 @media (min-width: 768px) {
   .scs-scheme-page-container {

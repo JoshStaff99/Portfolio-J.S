@@ -391,7 +391,6 @@ a {
 .form-paragraph-container {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
   align-items: center;
 }
 

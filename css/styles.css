@@ -218,6 +218,7 @@ a {
 .nav-logo {
   text-align: center;
   font-size: 50px;
+  border-bottom: 5px solid #48ACF0;
 }
 
 .nav-links ul {
@@ -328,10 +329,13 @@ a {
 
 .placeholder-project {
   display: flex;
+  position: relative;
   width: 100%;
   height: 300px;
   background-color: #DBD3D3;
   align-self: center;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  top: 0;
 }
 
 .project-img {
@@ -342,10 +346,13 @@ a {
 }
 
 .project-text {
-  background-color: #301A4B;
-  border: 5px solid #48ACF0;
-  padding-left: 10px;
-  border-radius: 5px;
+  text-align: center;
+}
+
+.placeholder-project:hover {
+  top: -10px;
+  transition: 0, 5s ease;
+  border-color: transparent;
 }
 
 @media (min-width: 768px) {
@@ -364,6 +371,12 @@ a {
 @media (min-width: 992px) {
   .project-container {
     width: 33.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-text {
+    text-align: left;
   }
 }
 
@@ -406,6 +419,8 @@ a {
   height: 50px;
   width: 100%;
   border-radius: 5px;
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
+  border: 1px solid #48ACF0;
 }
 
 .form-end {
@@ -421,6 +436,14 @@ a {
 .btn-submit {
   padding: 15px;
   width: 250px;
+  border: 1px solid #091057;
+  border-radius: 5px;
+  background-color: #48ACF0;
+  color: #80727B;
+}
+
+.btn-submit:hover {
+  background-color: #091057;
 }
 
 @media (min-width: 768px) {
@@ -452,6 +475,13 @@ a {
 @media (min-width: 1200px) {
   .form-end {
     height: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .form-btn-container {
+    justify-content: left;
+    padding-left: 8px;
   }
 }
 

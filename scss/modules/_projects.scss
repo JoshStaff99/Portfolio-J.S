@@ -27,10 +27,13 @@
 
 .placeholder-project {
     display: flex;
+    position: relative;
     width: 100%;
     height: 300px;
     background-color: #DBD3D3;
     align-self: center;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+    top: 0;
 }
 
 .project-img {
@@ -41,12 +44,15 @@
 }
 
 .project-text {
-    background-color: #301A4B;
-    border: 5px solid #48ACF0;
-    padding-left: 10px;
-    border-radius: 5px;
+    text-align: center;
 }
 
+// Hover Effect 
+.placeholder-project:hover {
+    top: -10px;
+    transition: 0,5s ease;
+    border-color: transparent;
+}
 
 // Media Queries
 .projects-list-container {
@@ -63,6 +69,12 @@
 .project-container {
     @media (min-width: 992px) {
         width: 33.33333333%;
+    }
+}
+
+.project-text {
+    @media (min-width: 992px) {
+        text-align: left;
     }
 }
 

@@ -349,10 +349,18 @@ a {
   text-align: center;
 }
 
+.view-project {
+  color: #80727B;
+}
+
 .placeholder-project:hover {
   top: -10px;
   transition: 0, 5s ease;
   border-color: transparent;
+}
+
+.view-project:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {

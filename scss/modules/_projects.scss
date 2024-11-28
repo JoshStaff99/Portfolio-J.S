@@ -47,6 +47,9 @@
     text-align: center;
 }
 
+.view-project {
+    color: #80727B;
+}
 // Hover Effect 
 .placeholder-project:hover {
     top: -10px;
@@ -54,6 +57,9 @@
     border-color: transparent;
 }
 
+.view-project:hover {
+    text-decoration: underline;
+}
 // Media Queries
 .projects-list-container {
     @media (min-width: 768px) {

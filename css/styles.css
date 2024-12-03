@@ -282,7 +282,16 @@ a {
 }
 
 .banner-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   margin: 10px;
+}
+
+.banner-content-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
 
 .scroll-down {
@@ -679,4 +688,9 @@ a {
     width: calc(100% - 200px);
     float: right;
   }
+}
+
+.typed-cursor {
+  align-self: center;
+  font-size: 2rem;
 }/*# sourceMappingURL=styles.css.map */

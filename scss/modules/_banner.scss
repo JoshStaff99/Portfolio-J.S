@@ -24,7 +24,15 @@
 }
 
 .banner-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin: 10px;
+}
+.banner-content-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 
 .scroll-down {

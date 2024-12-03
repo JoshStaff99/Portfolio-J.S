@@ -10,4 +10,7 @@ function burgermenuClick() {
     } else {
       x.style.display = "block";
     }
-  }
+}
+
+// Removes id with hover effect for drop down menu if JavaScript is loaded on the page
+document.getElementById("nav-top-burgermenu-nojs").removeAttribute("id");

@@ -3,7 +3,7 @@
 // ==========================================================================
 .nav-top-dropdown-menu-container {
     display: none;
-    background-color: burlywood;
+    background-color: #48ACF0;
     list-style: none;
     z-index: 1;
     position: absolute;
@@ -39,7 +39,7 @@
 
 
 // Hover Effect
-.nav-top-burgermenu:hover + .nav-top-dropdown-menu-container {
+#nav-top-burgermenu-nojs:hover + .nav-top-dropdown-menu-container {
           display: flex;
           background-color: #48ACF0;
             

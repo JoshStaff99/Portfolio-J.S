@@ -141,6 +141,10 @@ a {
   background-color: #48ACF0;
 }
 
+.icon-menu:active {
+  background-color: #301A4B;
+}
+
 @media (max-width: 767px) {
   .navbar-top-container {
     display: flex;
@@ -161,6 +165,7 @@ a {
   list-style: none;
   text-align: center;
   padding: 0;
+  margin: 0;
 }
 .nav-top-dropdown-menu-container li {
   padding-top: 10px;
@@ -193,6 +198,10 @@ a {
 
 .nav-top-dropdown-menu-container a:hover {
   text-decoration: underline;
+}
+
+.nav-top-dropdown-menu-container li:hover {
+  background-color: #301A4B;
 }
 
 .navbar {

@@ -14,6 +14,7 @@
         list-style: none;
         text-align: center;
         padding: 0;
+        margin: 0;
     }
     li {
         padding-top: 10px;
@@ -55,6 +56,9 @@
     }
 }
 
+.nav-top-dropdown-menu-container li:hover {
+    background-color: #301A4B;
+}
 // Media Queries
 
 

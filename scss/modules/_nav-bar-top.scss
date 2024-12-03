@@ -57,6 +57,10 @@
     }
 }
 
+.icon-menu:active {
+    background-color: #301A4B;
+}
+
 // Media Queries
 .navbar-top-container {
     @media (max-width: 767px) {

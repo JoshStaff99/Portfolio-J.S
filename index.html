@@ -153,7 +153,7 @@
                     </div>
                     <div class="form-bottom">
                         <form name="PhoneNumberForm">
-                            <input class="form" type="text" name="pnumber" placeholder="Phone Number*" required>
+                            <input class="form" id="telNo" type="text" name="pnumber" placeholder="Phone Number*" required>
                         </form>
                     </div>
                     <div class="form-bottom">
@@ -168,12 +168,12 @@
                     </div>
                     <div class="form-bottom">
                         <form name="MessageForm">
-                            <input class="form form-end" type="text" name="message" placeholder="Message*" required>
+                            <textarea class="form form-end" type="text" name="message" placeholder="Message*" required></textarea>
                         </form>
                     </div>
                     <div class="form-btn-container">
-                        <form name="myForm" onsubmit="return validateForm()" method="post">
-                            <input class="btn-submit" id="formId" type="submit" value="Submit">
+                        <form name="submitForm" onsubmit="return validateForm()" method="post">
+                            <input class="btn-submit" id="submitBtn" type="submit" value="Submit">
                         </form>
                     </div>
                 </div>
@@ -190,6 +190,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/jquery-3.7.1.min.js"></script>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script src="js/main.js"></script>
         <script src="js/index.js"></script>

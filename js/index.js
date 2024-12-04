@@ -4,7 +4,7 @@
 
 // Typing Effect for the banner section of the landing page
 var typed = new Typed('#banner-typing-1', {
-    strings: ['Hello, My name Joshua Stafford'],
+    strings: ['Hello, My name is Joshua Stafford'],
     typeSpeed: 50,
   });
 var typed = new Typed('#banner-typing-2', {

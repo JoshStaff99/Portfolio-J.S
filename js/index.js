@@ -18,7 +18,7 @@ document.querySelector(".banner-content-nojs").remove();
 // Email validator 
 const $form_TelNo = $('#telNo'); 
 let isValidTelNo = ()=> /^\+?[0-9]{0,3}[-\s\.]?\(?[0-9]{3}\)?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test($form_TelNo.val());
-const $form_EmailAddress = $('#emailAdd');
+const $form_EmailAddress = $('#emailAd');
 let isValidEmailAddress = ()=> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($form_EmailAddress.val());
 
 // Checks if fields are empty in form elements
@@ -64,9 +64,9 @@ const $submitBtn = $('.btn-submit');
 
 $submitBtn.on('click', function(event){
   if (validateForm() ) {
-    alert('Valid')
-    event.preventDefault();
+    alert('Form Submitted')
+    //$('.form')[0].reset();
+    //document.getElementsByClassName(".form").reset();
   } else
   event.preventDefault();
 });
-

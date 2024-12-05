@@ -6,8 +6,10 @@
     background-color: #48ACF0;
     list-style: none;
     z-index: 1;
+    left: 0;
+    right: 0;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     top: 100px;
     ul {
         width: 100%;

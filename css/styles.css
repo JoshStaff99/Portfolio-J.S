@@ -95,7 +95,7 @@ a {
   height: 100px;
   text-align: center;
   justify-content: space-between;
-  position: relative;
+  position: static;
   border-left: 5px solid #48ACF0;
   border-right: 5px solid #48ACF0;
   border-bottom: 5px solid #48ACF0;
@@ -156,8 +156,10 @@ a {
   background-color: #48ACF0;
   list-style: none;
   z-index: 1;
+  left: 0;
+  right: 0;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   top: 100px;
 }
 .nav-top-dropdown-menu-container ul {
@@ -373,6 +375,7 @@ a {
 
 .project-languages {
   list-style: none;
+  padding: 0;
 }
 
 .placeholder-project:hover {
@@ -655,6 +658,7 @@ a {
 
 .project-languages {
   list-style: none;
+  padding: 0;
 }
 
 @media (min-width: 768px) {

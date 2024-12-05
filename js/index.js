@@ -18,6 +18,8 @@ document.querySelector(".banner-content-nojs").remove();
 // Email validator 
 const $form_TelNo = $('#telNo'); 
 let isValidTelNo = ()=> /^\+?[0-9]{0,3}[-\s\.]?\(?[0-9]{3}\)?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test($form_TelNo.val());
+const $form_EmailAddress = $('#emailAdd');
+let isValidEmailAddress = ()=> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($form_EmailAddress.val());
 
 // Checks if fields are empty in form elements
 function validateForm() {
@@ -38,11 +40,14 @@ function validateForm() {
     alert("Phone number must be filled out");
    return false;
   } else if (!isValidTelNo()) {
-    alert("Not valid");
+    alert("Not a valid telephone number");
     return false;
   } else if (emailaddressForm == "") {
     alert("Email Address must be filled out");
-   return false;
+   return false; 
+  } else if (!isValidEmailAddress()) {
+    alert("Not a valid email address");
+    return false;
   } else if (subjectForm == "") {
     alert("Subject must be filled out");
    return false;

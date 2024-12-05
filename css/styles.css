@@ -89,13 +89,15 @@ a {
 }
 
 .navbar-top-container {
+  z-index: 40;
   display: none;
   flex-direction: row;
   background-color: #CCDDE2;
+  top: 0;
   height: 100px;
   text-align: center;
   justify-content: space-between;
-  position: static;
+  position: sticky;
   border-left: 5px solid #48ACF0;
   border-right: 5px solid #48ACF0;
   border-bottom: 5px solid #48ACF0;
@@ -159,8 +161,9 @@ a {
   left: 0;
   right: 0;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   top: 100px;
+  overflow-x: hidden;
 }
 .nav-top-dropdown-menu-container ul {
   width: 100%;

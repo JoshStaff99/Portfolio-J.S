@@ -2,13 +2,15 @@
 //  Nav Bar Top Styles
 // ==========================================================================
 .navbar-top-container {
+    z-index: 40;
     display: none;
     flex-direction: row;
     background-color: #CCDDE2;
+    top: 0;
     height: 100px;
     text-align: center;
     justify-content: space-between;
-    position: static;
+    position: sticky;
     border-left: 5px solid #48ACF0;
     border-right: 5px solid #48ACF0;
     border-bottom: 5px solid #48ACF0;

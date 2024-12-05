@@ -9,8 +9,9 @@
     left: 0;
     right: 0;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     top: 100px;
+    overflow-x: hidden;
     ul {
         width: 100%;
         list-style: none;

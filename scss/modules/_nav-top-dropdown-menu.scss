@@ -11,17 +11,19 @@
     position: absolute;
     width: 100%;
     top: 100px;
-    overflow-x: hidden;
+    overflow: hidden;
     ul {
         width: 100%;
         list-style: none;
         text-align: center;
         padding: 0;
         margin: 0;
+        overflow: hidden;
     }
     li {
         padding-top: 10px;
         padding-bottom: 10px;
+        overflow: hidden;
     }
 }
 

@@ -3,7 +3,7 @@
 // ==========================================================================
 .nav-top-dropdown-menu-container {
     display: none;
-    background-color: #48ACF0;
+    background-color: #301A4B;
     list-style: none;
     z-index: 1;
     left: 0;
@@ -12,6 +12,8 @@
     width: 100%;
     top: 100px;
     overflow: hidden;
+    border: 3px solid #48ACF0;
+    border-top: none;
     ul {
         width: 100%;
         list-style: none;
@@ -52,7 +54,7 @@
 
 .nav-top-dropdown-menu-container:hover {
         display: flex;
-        background-color: #48ACF0;
+        background-color: #301A4B;
 }
 
 .nav-top-dropdown-menu-container {

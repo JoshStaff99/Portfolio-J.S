@@ -23,12 +23,12 @@ let isValidEmailAddress = ()=> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($form_EmailAddr
 
 // Checks if fields are empty in form elements
 function validateForm() {
-  let firstnameForm = document.forms["FirstNameForm"]["fname"].value;
-  let lastnameForm = document.forms["LastNameForm"]["lname"].value;
-  let phonenumberForm = document.forms["PhoneNumberForm"]["pnumber"].value;
-  let emailaddressForm = document.forms["EmailAddressForm"]["emailaddress"].value;
-  let subjectForm = document.forms["SubjectForm"]["subject"].value;
-  let messageForm = document.forms["MessageForm"]["message"].value;
+  let firstnameForm = document.forms["contactForm"]["fname"].value;
+  let lastnameForm = document.forms["contactForm"]["lname"].value;
+  let phonenumberForm = document.forms["contactForm"]["pnumber"].value;
+  let emailaddressForm = document.forms["contactForm"]["emailaddress"].value;
+  let subjectForm = document.forms["contactForm"]["subject"].value;
+  let messageForm = document.forms["contactForm"]["message"].value;
 
   if (firstnameForm == "") {
     alert("First Name must be filled out");
@@ -65,7 +65,7 @@ const $submitBtn = $('.btn-submit');
 $submitBtn.on('click', function(event){
   if (validateForm() ) {
     alert('Form Submitted')
-    //$('.form')[0].reset();
+    $('#contactFormSubmit')[0].reset();
     //document.getElementsByClassName(".form").reset();
   } else
   event.preventDefault();

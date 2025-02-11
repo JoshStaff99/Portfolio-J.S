@@ -124,24 +124,24 @@ include('inc/connection.php');
                 </div>
                 
                 <div class="form-list-container">
-                    <form class="forms-container" name="contactForm" id="contactFormSubmit" onsubmit="return validateForm()" method="post">
+                    <form class="forms-container" name="contactForm" id="contact-form" onsubmit="return validateForm()" method="POST">
                         <div class="form-top">
-                            <input class="form" type="text" name="fname" placeholder="First Name*" required>
+                            <input id="firstname" class="form form-control" type="text" name="firstname" placeholder="First Name*" value="">
                         </div>
                         <div class="form-top">
-                            <input class="form" type="text" name="lname" placeholder="Last Name*" required>
+                            <input id="lastname"  class="form form-control" type="text" name="lastname" placeholder="Last Name*" value="">
                         </div>
                         <div class="form-bottom">
-                            <input class="form" id="telNo" type="text" name="pnumber" placeholder="Phone Number*" required>
+                            <input class="form form-control" id="telephone" type="text" name="telephone" placeholder="Phone Number*" value="">
                         </div>
                         <div class="form-bottom">
-                            <input class="form" id="emailAd" type="text" name="emailaddress" placeholder="Email Address*" required>
+                            <input class="form form-control" id="email" type="email" name="email" placeholder="Email Address*" value="">
                         </div>
                         <div class="form-bottom">
-                            <input class="form" type="text" name="subject" placeholder="Subject*" required>
+                            <input id="subject" class="form form-control" type="text" name="subject" placeholder="Subject*" value="">
                         </div>
                         <div class="form-bottom">
-                            <textarea class="form form-end"  name="message" placeholder="Message*" required></textarea>
+                            <textarea id="message" class="form form-end form-control"  name="message" placeholder="Message*" value=""></textarea>
                         </div>
                         <div class="form-btn-container">
                             <input class="btn-submit" id="submitBtn" type="button" value="Submit">

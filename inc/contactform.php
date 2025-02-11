@@ -14,12 +14,20 @@ function clean_input($data) {
 
 // Check if the form is submitted via POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Validate name
-    if (empty($_POST["name"])) {
-        $errors['name'] = "Name is required";
+    // Validate first name
+    if (empty($_POST["firstname"])) {
+        $errors['firstname'] = "First name is required";
         $hasErrors = true;
     } else {
-        $name = clean_input($_POST["name"]);
+        $firstname = clean_input($_POST["firstname"]);
+    }
+
+    // Validate last name
+    if (empty($_POST["lastname"])) {
+        $errors['lastname'] = "Last name is required";
+        $hasErrors = true;
+    } else {
+        $lastname = clean_input($_POST["lastname"]);
     }
 
     // Validate email
@@ -47,16 +55,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+    // Validate subject
+    if (empty($_POST["subject"])) {
+        $errors['subject'] = "Subject is required";
+        $hasErrors = true;
+    } else {
+        $subject = clean_input($_POST["subject"]);
+    }
+
+    // Validate message
+    if (empty($_POST["message"])) {
+        $errors['message'] = "Message is required";
+        $hasErrors = true;
+    } else {
+        $message = clean_input($_POST["message"]);
+    }
+
       // If there are no errors, insert the data into the database
       if (!$hasErrors) {
         try {
             // Prepare SQL insert statement
-            $stmt = $pdo->prepare("INSERT INTO contact_form (name, email, telephone, message) VALUES (:name, :email, :telephone, :message)");
+            $stmt = $pdo->prepare("INSERT INTO contact_form_portfolio (firstname, lastname, email, telephone, subject, message) VALUES (:firstname, :lastname, :email, :telephone, :subject, :message)");
 
             // Bind parameters to the prepared statement
-            $stmt->bindParam(':name', $name);
+            $stmt->bindParam(':firstname', $firstname);
+            $stmt->bindParam(':lastname', $lastname);
             $stmt->bindParam(':email', $email);
             $stmt->bindParam(':telephone', $telephone);
+            $stmt->bindParam(':subject', $subject);
             $stmt->bindParam(':message', $message);
 
             // Execute the insert query

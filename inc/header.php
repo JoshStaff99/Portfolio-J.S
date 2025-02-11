@@ -14,26 +14,6 @@
                 </ul>
             </div>
         </div>
-        <header>
-            <a id="top"></a>
-
-            <div class="banner-container">
-                <div class="banner">
-                    <div class="banner-content">
-                        <div class="banner-content-container">
-                            <h1 class="banner-content-nojs">Hello! my name is Joshua Stafford</h1>
-                            <h1 class="banner-content-1" id="banner-typing-1"></h1>
-                        </div>
-                        <div class="banner-content-container">
-                            <h2 class="banner-content-1" id="banner-typing-2"></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="scroll-down">
-                    <h3>Scroll down to see my projects!</h3>
-                </div>
-            </div>
-        </header>
 
         <div class="navbar">
             <div class="nav-logo">

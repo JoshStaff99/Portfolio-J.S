@@ -12,47 +12,7 @@
     </head>
 
     <body>
-        <div class="navbar-top-container">
-            <div class="nav-top-logo">
-                <h2><a href="index.php">J S</a></h2>
-            </div>
-            <div class="nav-top-burgermenu" id="nav-top-burgermenu-nojs" onclick="burgermenuClick()">
-                <span class="icon-menu"></span>
-            </div>
-            <div class="nav-top-dropdown-menu-container" id="dropdown-menu-container">
-                <ul>
-                    <li><a href="about-me.php">About Me</a></li>
-                    <li><a href="index.php#portfolio">My Portfolio</a></li>
-                    <li><a href="coding-examples.php">Coding Examples</a></li>
-                    <li><a href="scs-scheme.php">SCS Scheme</a></li>
-                </ul>
-            </div>
-        </div>
-        <header>
-            <a id="top"></a>
-            
-        </header>
-
-        <div class="navbar">
-            <div class="nav-logo">
-                <h2><a href="index.php">J S</a></h2>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="about-me.php">About Me</a></li>
-                    <li><a href="index.php#portfolio">My Portfolio</a></li>
-                    <li><a href="coding-examples.php">Coding Examples</a></li>
-                    <li><a href="scs-scheme.php">SCS Scheme</a></li>
-                </ul>
-            </div>
-            <div class="contact-me">
-                <strong><a href="index.php#contact">Contact Me</a></strong>
-            </div>
-            <div class="nav-socials">
-                <a href="https://www.linkedin.com/in/joshua-stafford-798862240/" target="_blank"><span class="icon-linkedin2"></span></a>
-            </div>
-        </div>
-
+        <?php include ('inc/header.php'); ?>
 
         <main>
             <div class="scs-scheme-page-container">
@@ -83,11 +43,7 @@
         </main>
 
         <footer>
-            <div class="footer-container">
-                <div class="copyright-footer">
-                    <small>@ Copyright Joshua Stafford 2024</small>
-                </div>
-            </div>
+            <?php include ('inc/footer.php'); ?>
         </footer>
         <script src="js/main.js"></script>
     </body>

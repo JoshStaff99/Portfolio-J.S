@@ -3,6 +3,6 @@
                     <a class="back-to-top-btn" href="#top">Back To Top</a>
                 </div>
                 <div class="copyright-footer">
-                    <small>@ Copyright Joshua Stafford 2024</small>
+                    <small>@ Copyright Joshua Stafford 2025</small>
                 </div>
             </div>

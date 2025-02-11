@@ -18,6 +18,26 @@ include('inc/connection.php');
 
     <body>
         <?php include ('inc/header.php'); ?>
+        <header>
+            <a id="top"></a>
+
+            <div class="banner-container">
+                <div class="banner">
+                    <div class="banner-content">
+                        <div class="banner-content-container">
+                            <h1 class="banner-content-nojs">Hello! my name is Joshua Stafford</h1>
+                            <h1 class="banner-content-1" id="banner-typing-1"></h1>
+                        </div>
+                        <div class="banner-content-container">
+                            <h2 class="banner-content-1" id="banner-typing-2"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-down">
+                    <h3>Scroll down to see my projects!</h3>
+                </div>
+            </div>
+        </header>
 
         <main>
             <div class="projects-list-container">
@@ -98,7 +118,11 @@ include('inc/connection.php');
                 <div class="form-paragraph-container">
                     <h3>Get in touch</h3>
                     <p>Via this form.</p>
+                    <div class="alert alert-danger-hidden" id="alert">
+
+                    </div>
                 </div>
+                
                 <div class="form-list-container">
                     <form class="forms-container" name="contactForm" id="contactFormSubmit" onsubmit="return validateForm()" method="post">
                         <div class="form-top">

@@ -141,7 +141,7 @@ include('inc/connection.php');
                             <input id="subject" class="form form-control" type="text" name="subject" placeholder="Subject*" value="">
                         </div>
                         <div class="form-bottom">
-                            <textarea id="message" class="form form-end form-control"  name="message" placeholder="Message*" value=""></textarea>
+                            <textarea id="message" class="form form-end form-control"  name="message" placeholder="Message*"></textarea>
                         </div>
                         <div class="form-btn-container">
                             <input class="btn-submit" id="submitBtn" type="button" value="Submit">

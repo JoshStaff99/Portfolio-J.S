@@ -1,5 +1,6 @@
 <?php
 require_once 'connection.php';
+require_once 'mailer.php';
 
 header('Content-Type: application/json');
 
@@ -87,6 +88,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Execute the insert query
             $stmt->execute();
+
+            try {
+                sendContactEmail($firstname, $lastname, $email, $telephone, $subject, $message);
+            }
+            catch (Exception $e) {
+                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+            }
 
             // Return success response in JSON format
             echo json_encode(['success' => true]);

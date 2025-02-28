@@ -124,7 +124,7 @@ include('inc/connection.php');
                 </div>
                 
                 <div class="form-list-container">
-                    <form class="forms-container" name="contactForm" id="contact-form" onsubmit="return validateForm()" method="POST">
+                    <form class="forms-container" action="inc/contactform.php" name="contactForm" id="contact-form" onsubmit="return validateForm()" method="POST">
                         <div class="form-top">
                             <input id="firstname" class="form form-control" type="text" name="firstname" placeholder="First Name*" value="">
                         </div>

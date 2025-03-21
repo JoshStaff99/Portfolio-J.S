@@ -54,6 +54,7 @@ include('inc/connection.php');
                                 <li>CSS</li>
                                 <li>SCSS</li>
                                 <li>JavaScript/jQuery</li>
+                                <li>PHP</li>
                             </ul>
                             <h3><a class="view-project" href="https://netmatters.joshua-stafford.netmatters-scs.co.uk" target="_blank">View Project</a></h3>
                         </div>
@@ -78,20 +79,29 @@ include('inc/connection.php');
                 </div>
                 <div class="project-container">
                     <div class="projects-item project-3">
-                        <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
+                        <a href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" class="project-img-link" target="_blank"><img class="placeholder-project project-img" src="img/LaravelAssessment.png" alt="Placeholder image"></a>
                         <div class="project-text">
-                            <h2>Project Three</h2>
-                            <h3>View Project</h3>
+                            <h2>Laravel System Admin</h2>
+                            <p>Created a fake System admin to manage fake companies and their employees using Laravel.</p>
+                            <ul class="project-languages">
+                                <li>Languages used</li>
+                                <li>JavaScript/jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>SCSS</li>
+                                <li>PHP</li>
+                            </ul>
+                            <h3><a class="view-project" href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" target="_blank">View Project</a></h3>
                         </div>
                     </div>
                 </div>
                 <div class="project-container">
                     <div class="projects-item project-4">
                         <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
-                        <div class="project-text">
-                            <h2>Project Four</h2>
-                            <h3>View Project</h3>
-                        </div>
+                            <div class="project-text">
+                                <h2>Project Four</h2>
+                                <h3>View Project</h3>
+                            </div>
                     </div>
                 </div>
                 <div class="project-container">

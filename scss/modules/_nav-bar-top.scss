@@ -5,17 +5,17 @@
     z-index: 40;
     display: none;
     flex-direction: row;
-    background-color: #CCDDE2;
+    background-color: #000000;
     top: 0;
     height: 100px;
     text-align: center;
     justify-content: space-between;
     position: sticky;
-    border-left: 5px solid #48ACF0;
-    border-right: 5px solid #48ACF0;
-    border-bottom: 5px solid #48ACF0;
+    border-left: 5px solid #ffffff0d;
+    border-right: 5px solid #ffffff0d;
+    border-bottom: 5px solid #ffffff0d;
     a {
-        color: #80727B;
+        color: #ffffff;
     }
     h2 {
         font-size: 50px;
@@ -46,7 +46,7 @@
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 5px;
-    background-color: #48ACF0;
+    background-color: #ffffff0d;
     font-size: 2rem;
     align-self: center;
     overflow: hidden;
@@ -55,12 +55,12 @@
 // Hover effect
 .nav-top-burgermenu:hover {
     .icon-menu {
-        background-color: #48ACF0;
+        background-color: #ffffff1c;
     }
 }
 
 .icon-menu:active {
-    background-color: #301A4B;
+    background-color: #ffffff1c;
 }
 
 // Media Queries

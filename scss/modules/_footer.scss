@@ -4,9 +4,9 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    background-color: #CCDDE2;
+    background-color: #000000;
     height: auto;
-    border-top: 5px solid #48ACF0;
+    border-top: 5px solid #ffffff0d;
 }
 
 .back-to-top {
@@ -16,18 +16,19 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    padding-top: 10px;
     padding-bottom: 30px;
     font-size: 30px;
 }
 
 .back-to-top-btn {
-    color: #80727B;
+    color: #ffffff;
 }
 
 .copyright-footer {
     display: flex;
     align-self: center;
-    color: #80727B;
+    color: #ffffff;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;

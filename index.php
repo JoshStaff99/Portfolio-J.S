@@ -1,3 +1,8 @@
+<?php
+include('inc/connection.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,22 +17,7 @@
     </head>
 
     <body>
-        <div class="navbar-top-container">
-            <div class="nav-top-logo">
-                <h2><a href="index.html">J S</a></h2>
-            </div>
-            <div class="nav-top-burgermenu" id="nav-top-burgermenu-nojs" onclick="burgermenuClick()">
-                <span class="icon-menu"></span>
-            </div>
-            <div class="nav-top-dropdown-menu-container" id="dropdown-menu-container">
-                <ul>
-                    <li><a href="about-me.html">About Me</a></li>
-                    <li><a href="index.html#portfolio">My Portfolio</a></li>
-                    <li><a href="coding-examples.html">Coding Examples</a></li>
-                    <li><a href="scs-scheme.html">SCS Scheme</a></li>
-                </ul>
-            </div>
-        </div>
+        <?php include ('inc/header.php'); ?>
         <header>
             <a id="top"></a>
 
@@ -49,26 +39,6 @@
             </div>
         </header>
 
-        <div class="navbar">
-            <div class="nav-logo">
-                <h2><a href="index.html">J S</a></h2>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="about-me.html">About Me</a></li>
-                    <li><a href="index.html#portfolio">My Portfolio</a></li>
-                    <li><a href="coding-examples.html">Coding Examples</a></li>
-                    <li><a href="scs-scheme.html">SCS Scheme</a></li>
-                </ul>
-            </div>
-            <div class="contact-me">
-                <strong><a href="index.html#contact">Contact Me</a></strong>
-            </div>
-            <div class="nav-socials">
-                <a href="https://www.linkedin.com/in/joshua-stafford-798862240/" target="_blank"><span class="icon-linkedin2"></span></a>
-            </div>
-        </div>
-
         <main>
             <div class="projects-list-container">
                 <a id="portfolio"></a>
@@ -84,6 +54,7 @@
                                 <li>CSS</li>
                                 <li>SCSS</li>
                                 <li>JavaScript/jQuery</li>
+                                <li>PHP</li>
                             </ul>
                             <h3><a class="view-project" href="https://netmatters.joshua-stafford.netmatters-scs.co.uk" target="_blank">View Project</a></h3>
                         </div>
@@ -108,20 +79,29 @@
                 </div>
                 <div class="project-container">
                     <div class="projects-item project-3">
-                        <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
+                        <a href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" class="project-img-link" target="_blank"><img class="placeholder-project project-img" src="img/LaravelAssessment.png" alt="Placeholder image"></a>
                         <div class="project-text">
-                            <h2>Project Three</h2>
-                            <h3>View Project</h3>
+                            <h2>Laravel System Admin</h2>
+                            <p>Created a fake System admin to manage fake companies and their employees using Laravel.</p>
+                            <ul class="project-languages">
+                                <li>Languages used</li>
+                                <li>JavaScript/jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>SCSS</li>
+                                <li>PHP</li>
+                            </ul>
+                            <h3><a class="view-project" href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" target="_blank">View Project</a></h3>
                         </div>
                     </div>
                 </div>
                 <div class="project-container">
                     <div class="projects-item project-4">
                         <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
-                        <div class="project-text">
-                            <h2>Project Four</h2>
-                            <h3>View Project</h3>
-                        </div>
+                            <div class="project-text">
+                                <h2>Project Four</h2>
+                                <h3>View Project</h3>
+                            </div>
                     </div>
                 </div>
                 <div class="project-container">
@@ -148,26 +128,30 @@
                 <div class="form-paragraph-container">
                     <h3>Get in touch</h3>
                     <p>Via this form.</p>
+                    <div class="alert alert-danger-hidden" id="alert">
+
+                    </div>
                 </div>
+                
                 <div class="form-list-container">
-                    <form class="forms-container" name="contactForm" id="contactFormSubmit" onsubmit="return validateForm()" method="post">
+                    <form class="forms-container" action="inc/contactform.php" name="contactForm" id="contact-form" onsubmit="return validateForm()" method="POST">
                         <div class="form-top">
-                            <input class="form" type="text" name="fname" placeholder="First Name*" required>
+                            <input id="firstname" class="form form-control" type="text" name="firstname" placeholder="First Name*" value="">
                         </div>
                         <div class="form-top">
-                            <input class="form" type="text" name="lname" placeholder="Last Name*" required>
+                            <input id="lastname"  class="form form-control" type="text" name="lastname" placeholder="Last Name*" value="">
                         </div>
                         <div class="form-bottom">
-                            <input class="form" id="telNo" type="text" name="pnumber" placeholder="Phone Number*" required>
+                            <input class="form form-control" id="telephone" type="text" name="telephone" placeholder="Phone Number*" value="">
                         </div>
                         <div class="form-bottom">
-                            <input class="form" id="emailAd" type="text" name="emailaddress" placeholder="Email Address*" required>
+                            <input class="form form-control" id="email" type="email" name="email" placeholder="Email Address*" value="">
                         </div>
                         <div class="form-bottom">
-                            <input class="form" type="text" name="subject" placeholder="Subject*" required>
+                            <input id="subject" class="form form-control" type="text" name="subject" placeholder="Subject*" value="">
                         </div>
                         <div class="form-bottom">
-                            <textarea class="form form-end"  name="message" placeholder="Message*" required></textarea>
+                            <textarea id="message" class="form form-end form-control"  name="message" placeholder="Message*"></textarea>
                         </div>
                         <div class="form-btn-container">
                             <input class="btn-submit" id="submitBtn" type="button" value="Submit">
@@ -178,14 +162,7 @@
         </main>
 
         <footer>
-            <div class="footer-container">
-                <div class="back-to-top">
-                    <a class="back-to-top-btn" href="#top">Back To Top</a>
-                </div>
-                <div class="copyright-footer">
-                    <small>@ Copyright Joshua Stafford 2024</small>
-                </div>
-            </div>
+            <?php include ('inc/footer.php'); ?>
         </footer>
         <script src="js/jquery-3.7.1.min.js"></script>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>

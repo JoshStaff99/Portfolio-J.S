@@ -369,7 +369,7 @@ a {
 }
 
 .view-project {
-  color: #0003ac;
+  color: #48ACF0;
 }
 
 .project-languages {
@@ -669,6 +669,8 @@ textarea:focus {
   padding: 40px;
   text-align: center;
   color: #80727B;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .coding-example-subcontainer-1 {

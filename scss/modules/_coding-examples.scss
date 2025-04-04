@@ -2,8 +2,7 @@
 // Coding Examples Styles
 // ==========================================================================
 .coding-examples-container {
-    background-color: #CCDDE2;
-    min-height: 100vh;
+    background-color: #000000;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -16,9 +15,9 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #301A4B;
+    background-color: #ffffff0d;
     margin: 10px;
-    border: 5px solid #48ACF0;
+    border: 5px solid #ffffff0d;
     padding: 5px;
     a {
         color: #80727B;
@@ -31,7 +30,7 @@
     position: relative;
     width: 300px;
     height: 300px;
-    background-color: #DBD3D3;
+    background-color: #ffffff0d;
     align-self: center;
     box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
     top: 0;
@@ -40,7 +39,7 @@
 .coding-img {
     display: flex;
     width: 300px;
-    border: 5px solid #48ACF0;
+    border: 5px solid #ffffff0d;
     border-radius: 5px;
 }
 

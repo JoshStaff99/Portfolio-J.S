@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Portfolio J.S About Me</title>
+        <title>About Me</title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,8 +22,12 @@
                         <h3>Skills</h3>
                         <ul>
                             <li>HTML</li>
-                            <li>CSS</li>
+                            <li>CSS/SASS</li>
                             <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Tailwind CSS</li>
+                            <li>C#</li>
                         </ul>
                     </div>
                     <div class="my-info-container">

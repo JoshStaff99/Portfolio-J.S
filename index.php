@@ -6,7 +6,7 @@ include('inc/connection.php');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Portfolio J.S Homepage</title>
+        <title>Homepage</title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -72,6 +72,7 @@ include('inc/connection.php');
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>SCSS</li>
+                                <br>
                             </ul>
                             <h3><a class="view-project" href="https://js-array.joshua-stafford.netmatters-scs.co.uk/" target="_blank">View Project</a></h3>
                         </div>

@@ -6,19 +6,19 @@
     height: 100vh;
     min-height: 100%;
     float: left;
-    background-color: #CCDDE2;
+    background-color: #000000;
     z-index: 2;
-    border-top: 10px solid #48ACF0;
+    //border-top: 10px solid #48ACF0;
     margin: 0;
     padding: 0;
     display: none;
     flex-direction: column;
     position: fixed;
     width: 200px;
-    border-right: 5px solid #48ACF0;
-    color: #80727B;
+    //border-right: 5px solid #48ACF0;
+    color: #ffffff;
     a {
-        color: #80727B;
+        color: #ffffff;
     }
 
 }
@@ -26,7 +26,8 @@
 .nav-logo {
     text-align: center;
     font-size: 50px;
-    border-bottom: 5px solid #48ACF0;
+    border-bottom: 5px solid #ffffff0d;
+    border-width: thin;
 }
 
 .nav-links {
@@ -44,8 +45,9 @@
 }
 
 .contact-me {
-    border-top: 5px solid #48ACF0;
-    border-bottom: 5px solid #48ACF0;
+    border-top: 5px solid #ffffff0d;
+    border-bottom: 5px solid #ffffff0d;
+    border-width: thin;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;

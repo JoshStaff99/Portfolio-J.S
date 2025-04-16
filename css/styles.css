@@ -72,6 +72,47 @@ a {
   content: "\eab0";
 }
 
+.pill-button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.html-color {
+  background-color: #ff651d;
+}
+
+.sass-color {
+  background-color: #cc6698;
+}
+
+.javascript-color {
+  background-color: #f7df22;
+}
+
+.php-color {
+  background-color: #5a68a5;
+}
+
+.laravel-color {
+  background-color: #f25045;
+}
+
+.tailwind-color {
+  background-color: #38bdf8;
+}
+
+.csharp-color {
+  background-color: #67217a;
+}
+
 .navbar-top-container {
   z-index: 40;
   display: none;
@@ -152,6 +193,7 @@ a {
   border-top: none;
 }
 .nav-top-dropdown-menu-container ul {
+  background-color: #000000;
   width: 100%;
   list-style: none;
   text-align: center;
@@ -401,6 +443,12 @@ a {
 }
 
 @media (min-width: 992px) {
+  .project-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1260px) {
   .project-container {
     width: 33.33333333%;
   }

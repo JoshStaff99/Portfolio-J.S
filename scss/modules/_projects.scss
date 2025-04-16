@@ -85,8 +85,15 @@
     }
 }
 
+//project cards
 .project-container {
     @media (min-width: 992px) {
+        width: 50%;
+    }
+}
+
+.project-container {
+    @media (min-width: 1260px) {
         width: 33.33333333%;
     }
 }

@@ -15,6 +15,7 @@
     border: 3px solid #ffffff0d;
     border-top: none;
     ul {
+        background-color: #000000;
         width: 100%;
         list-style: none;
         text-align: center;
@@ -47,14 +48,14 @@
 
 // Hover Effect
 #nav-top-burgermenu-nojs:hover + .nav-top-dropdown-menu-container {
-          display: flex;
-          background-color: #ffffff0d;
+    display: flex;
+    background-color: #ffffff0d;
             
 }
 
 .nav-top-dropdown-menu-container:hover {
-        display: flex;
-        background-color: #ffffff0d;
+    display: flex;
+    background-color: #ffffff0d;
 }
 
 .nav-top-dropdown-menu-container {

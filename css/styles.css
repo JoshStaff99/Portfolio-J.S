@@ -619,9 +619,10 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   color: #80727B;
-  background-color: rgba(255, 255, 255, 0.0509803922);
   padding: 5px;
-  border: 5px solid rgba(255, 255, 255, 0.0509803922);
+}
+.about-me h1 {
+  color: white;
 }
 
 .skills-container {

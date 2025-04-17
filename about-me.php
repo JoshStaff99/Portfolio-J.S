@@ -27,7 +27,7 @@
                             <button class="pill-button javascript-color">JavaScript</button>
                             <button class="pill-button php-color">PHP</button>
                             <button class="pill-button laravel-color">Laravel</button>
-                            <button class="pill-button tailwind-color">Tailwin CSS</button>
+                            <button class="pill-button tailwind-color">Tailwind CSS</button>
                             <button class="pill-button csharp-color">C#</button>
                         </div>
                     </div>

@@ -403,7 +403,7 @@ a {
   display: flex;
   max-width: 500px;
   border: 5px solid #48ACF0;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .project-text {
@@ -691,6 +691,7 @@ textarea:focus {
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.0509803922);
   padding: 5px;
+  margin-bottom: 20px;
 }
 .my-info-container ul {
   padding: 0;
@@ -785,11 +786,17 @@ textarea:focus {
 
 @media (min-width: 920px) {
   .coding-img-1 {
-    max-width: 500px;
+    max-width: 400px;
   }
 }
 
 @media (min-width: 1260px) {
+  .coding-img-1 {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1500px) {
   .coding-img-1 {
     max-width: 700px;
   }

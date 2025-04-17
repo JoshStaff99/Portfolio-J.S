@@ -88,7 +88,7 @@ include('inc/connection.php');
                                 <button class="pill-button javascript-color">JavaScript/jQuery</button>
                                 <button class="pill-button php-color">PHP</button>
                                 <button class="pill-button laravel-color">Laravel</button>
-                                <button class="pill-button tailwind-color">Tailwin CSS</button>
+                                <button class="pill-button tailwind-color">Tailwind CSS</button>
                             </div>
                             <h3><a class="view-project" href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" target="_blank">View Project</a></h3>
                         </div>

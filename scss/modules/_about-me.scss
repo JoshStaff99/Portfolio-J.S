@@ -16,9 +16,10 @@
     display: flex;
     flex-direction: column;
     color: #80727B;
-    background-color: #ffffff0d;
     padding: 5px;
-    border: 5px solid #ffffff0d;
+    h1{
+        color: #ffffffff;
+    }
 }
 
 .skills-container {
@@ -39,6 +40,7 @@
     margin-top: 20px;
     background-color: #ffffff0d;
     padding: 5px;
+    margin-bottom: 20px;
     ul {
         padding: 0;
         list-style: none

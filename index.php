@@ -48,13 +48,12 @@ include('inc/connection.php');
                         <div class="project-text">
                             <h2>Netmatters Homepage Mirror</h2>
                             <p>Created a mirror version of the Netmatters homepage.</p>
-                            <ul class="project-languages">
+                            <ul class="project-languages project-spacer-1">
                                 <li>Languages used</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SCSS</li>
-                                <li>JavaScript/jQuery</li>
-                                <li>PHP</li>
+                                <button class="pill-button html-color">HTML</button>
+                                <button class="pill-button sass-color">CSS/SASS</button>
+                                <button class="pill-button javascript-color">JavaScript/jQuery</button>
+                                <button class="pill-button php-color">PHP</button>
                             </ul>
                             <h3><a class="view-project" href="https://netmatters.joshua-stafford.netmatters-scs.co.uk" target="_blank">View Project</a></h3>
                         </div>
@@ -68,11 +67,9 @@ include('inc/connection.php');
                             <p>Created a JavaScript array that generates random images and adds them to a collection.</p>
                             <ul class="project-languages">
                                 <li>Languages used</li>
-                                <li>JavaScript/jQuery</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SCSS</li>
-                                <br>
+                                <button class="pill-button html-color">HTML</button>
+                                <button class="pill-button sass-color">CSS/SASS</button>
+                                <button class="pill-button javascript-color">JavaScript/jQuery</button>
                             </ul>
                             <h3><a class="view-project" href="https://js-array.joshua-stafford.netmatters-scs.co.uk/" target="_blank">View Project</a></h3>
                         </div>
@@ -84,42 +81,16 @@ include('inc/connection.php');
                         <div class="project-text">
                             <h2>Laravel System Admin</h2>
                             <p>Created a fake System admin to manage fake companies and their employees using Laravel.</p>
-                            <ul class="project-languages">
+                            <div class="project-languages">
                                 <li>Languages used</li>
-                                <li>JavaScript/jQuery</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>SCSS</li>
-                                <li>PHP</li>
-                            </ul>
-                            <h3><a class="view-project" href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" target="_blank">View Project</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="projects-item project-4">
-                        <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
-                            <div class="project-text">
-                                <h2>Project Four</h2>
-                                <h3>View Project</h3>
+                                <button class="pill-button html-color">HTML</button>
+                                <button class="pill-button sass-color">CSS/SASS</button>
+                                <button class="pill-button javascript-color">JavaScript/jQuery</button>
+                                <button class="pill-button php-color">PHP</button>
+                                <button class="pill-button laravel-color">Laravel</button>
+                                <button class="pill-button tailwind-color">Tailwind CSS</button>
                             </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="projects-item project-5">
-                        <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
-                        <div class="project-text">
-                            <h2>Project Five</h2>
-                            <h3>View Project</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="projects-item project-6">
-                        <img class="placeholder-project project-img" src="img/Portfolioprojectplaceholder.jpg" alt="Placeholder image">
-                        <div class="project-text">
-                            <h2>Project Six</h2>
-                            <h3>View Project</h3>
+                            <h3><a class="view-project" href="http://laravel.joshua-stafford.netmatters-scs.co.uk/login" target="_blank">View Project</a></h3>
                         </div>
                     </div>
                 </div>
@@ -169,6 +140,7 @@ include('inc/connection.php');
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         <script src="js/main.js"></script>
         <script src="js/index.js"></script>
+        <script src="https://kit.fontawesome.com/c6f1d57b66.js" crossorigin="anonymous"></script>
     </body>
 
 </html>

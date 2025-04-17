@@ -32,5 +32,6 @@
             </div>
             <div class="nav-socials">
                 <a href="https://www.linkedin.com/in/joshua-stafford-798862240/" target="_blank"><span class="icon-linkedin2"></span></a>
+                <a href="https://github.com/JoshStaff99" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>

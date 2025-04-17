@@ -20,15 +20,16 @@
                     <h1>Hello My Name is Joshua Stafford</h1>
                     <div class="skills-container"> 
                         <h3>Skills</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS/SASS</li>
-                            <li>JavaScript</li>
-                            <li>PHP</li>
-                            <li>Laravel</li>
-                            <li>Tailwind CSS</li>
-                            <li>C#</li>
-                        </ul>
+                        <p>I have learned a multitude of langauges during my time on the Netmatters scion scheme as well as in my free time which are:</p>
+                        <div class="pill-button-container">
+                            <button class="pill-button html-color">HTML</button>
+                            <button class="pill-button sass-color">CSS/SASS</button>
+                            <button class="pill-button javascript-color">JavaScript</button>
+                            <button class="pill-button php-color">PHP</button>
+                            <button class="pill-button laravel-color">Laravel</button>
+                            <button class="pill-button tailwind-color">Tailwind CSS</button>
+                            <button class="pill-button csharp-color">C#</button>
+                        </div>
                     </div>
                     <div class="my-info-container">
                         <h3>About Me</h3>
@@ -45,6 +46,7 @@
             <?php include ('inc/footer.php'); ?>
         </footer>
         <script src="js/main.js"></script>
+        <script src="https://kit.fontawesome.com/c6f1d57b66.js" crossorigin="anonymous"></script>
     </body>
 
 

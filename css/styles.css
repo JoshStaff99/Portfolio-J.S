@@ -735,22 +735,21 @@ textarea:focus {
   color: #80727B;
 }
 
+.coding-snippet {
+  position: relative;
+  right: 205px;
+}
+
 .coding-img-1 {
   display: flex;
   position: relative;
-  width: 300px;
-  height: 300px;
+  max-width: 200px;
   background-color: rgba(255, 255, 255, 0.0509803922);
   align-self: center;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   top: 0;
-}
-
-.coding-img {
-  display: flex;
-  width: 300px;
   border: 5px solid rgba(255, 255, 255, 0.0509803922);
-  border-radius: 5px;
+  align-self: center;
 }
 
 .project-languages {
@@ -769,6 +768,30 @@ textarea:focus {
   .coding-example-subcontainer-1 {
     width: 60%;
     align-self: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .coding-img-1 {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 640px) {
+  .coding-img-1 {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 920px) {
+  .coding-img-1 {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .coding-img-1 {
+    max-width: 700px;
   }
 }
 

@@ -46,6 +46,7 @@
             <?php include ('inc/footer.php'); ?>
         </footer>
         <script src="js/main.js"></script>
+        <script src="https://kit.fontawesome.com/c6f1d57b66.js" crossorigin="anonymous"></script>
     </body>
 
 

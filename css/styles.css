@@ -378,7 +378,6 @@ a {
   background-color: rgba(255, 255, 255, 0.0509803922);
   flex-direction: column;
   padding: 5px;
-  padding-top: 20px;
   border-radius: 10%;
 }
 
@@ -469,19 +468,25 @@ a {
 }
 
 .form-list-container {
-  display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  padding: 5px;
-  background-color: #000000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  margin: 10px;
+  border: 5px solid rgba(255, 255, 255, 0.0509803922);
+  padding: 15px;
+}
+.form-list-container a {
+  color: #80727B;
 }
 
 .forms-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: #000000;
   width: 100%;
+  color: #ffffff;
 }
 .forms-container div {
   padding: 8px;
@@ -503,7 +508,7 @@ a {
   background-color: rgba(255, 255, 255, 0.0509803922);
   box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.075);
   border: 1px solid rgba(255, 255, 255, 0.0509803922);
-  color: #80727B;
+  color: #fff;
 }
 
 input:focus {
@@ -578,24 +583,6 @@ textarea:focus {
     width: calc(100% - 200px);
     float: right;
     padding-right: 10px;
-  }
-}
-@media (min-width: 992px) {
-  .form-section-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
-@media (min-width: 992px) {
-  .form-list-container {
-    width: 80%;
-  }
-}
-
-@media (min-width: 992px) {
-  .form-paragraph-container {
-    width: 20%;
   }
 }
 
@@ -677,7 +664,7 @@ textarea:focus {
   text-align: center;
   border: 5px solid rgba(255, 255, 255, 0.0509803922);
   background-color: rgba(255, 255, 255, 0.0509803922);
-  padding: 5px;
+  padding: 15px;
 }
 .skills-container ul {
   padding: 0;
@@ -690,7 +677,7 @@ textarea:focus {
   align-self: center;
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.0509803922);
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 20px;
 }
 .my-info-container ul {
@@ -730,7 +717,7 @@ textarea:focus {
   background-color: rgba(255, 255, 255, 0.0509803922);
   margin: 10px;
   border: 5px solid rgba(255, 255, 255, 0.0509803922);
-  padding: 5px;
+  padding: 15px;
 }
 .coding-example-subcontainer-1 a {
   color: #80727B;
@@ -820,7 +807,7 @@ textarea:focus {
   background-color: rgba(255, 255, 255, 0.0509803922);
   margin: 10px;
   border: 5px solid rgba(255, 255, 255, 0.0509803922);
-  padding: 5px;
+  padding: 15px;
 }
 .section-container a {
   color: #80727B;

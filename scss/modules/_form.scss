@@ -16,19 +16,27 @@
 }
 
 .form-list-container {
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    padding: 5px;
-    background-color: #000000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff0d;
+    margin: 10px;
+    border: 5px solid #ffffff0d;
+    padding: 15px;
+    a {
+        color: #80727B;
+     }
+
 }
 
 .forms-container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        background-color: #000000;
+        // background-color: #000000;
         width: 100%;
+        color: #ffffff;
         div {
             padding: 8px;
         }
@@ -48,7 +56,7 @@
     background-color: #ffffff0d;
     box-shadow: inset 0 5px 5px rgba(0, 0, 0, .075);
     border: 1px solid #ffffff0d;
-    color: #80727B;
+    color: #fff;
 }
 input:focus { 
     outline: 3px solid #ffffff1c;
@@ -128,22 +136,22 @@ textarea:focus {
         float: right;
         padding-right: 10px;
     }
-    @media (min-width: 992px) {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    // @media (min-width: 992px) {
+    //     flex-direction: row;
+    //     flex-wrap: wrap;
+    // }
 }
 
-.form-list-container {
-    @media (min-width: 992px) {
-        width: 80%;
-    }
-}
-.form-paragraph-container {
-    @media (min-width: 992px) {
-        width: 20%;
-    }
-}
+// .form-list-container {
+//     @media (min-width: 992px) {
+//         width: 80%;
+//     }
+// }
+// .form-paragraph-container {
+//     @media (min-width: 992px) {
+//         width: 20%;
+//     }
+// }
 
 .form-end {
     @media (min-width: 1200px) {

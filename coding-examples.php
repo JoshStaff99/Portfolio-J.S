@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/prism.css"/>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
     </head>
 
     <body class="language-css">

@@ -40,6 +40,31 @@ include('inc/connection.php');
         </header>
 
         <main>
+            <div class="about-me-container">
+                <a id="about-me"></a>
+                <div class="about-me">
+                    <h1>Hello My Name is Joshua Stafford</h1>
+                    <div class="skills-container">
+                        <h3>About Me</h3>
+                        <ul>
+                            <li>Age: 25</li>
+                        </ul>
+                        <p>I am a passionate and dedicated technologist. I studied Games Design at the University of Suffolk and graduated in 2022. I am currently training for a career in tech as a Web Developer on the Netmatters scion scheme. I am proficient in an array of different languages including front and back end. I have made multiple projects from the ground up and have also made multiple projects following a brief/strict guidelines.</p> 
+                        <h3>Skills</h3>
+                        <p>I have learned a multitude of langauges during my time on the Netmatters scion scheme as well as in my free time which are:</p>
+                        <div class="pill-button-container">
+                            <button class="pill-button html-color">HTML</button>
+                            <button class="pill-button sass-color">CSS/SASS</button>
+                            <button class="pill-button javascript-color">JavaScript</button>
+                            <button class="pill-button php-color">PHP</button>
+                            <button class="pill-button laravel-color">Laravel</button>
+                            <button class="pill-button tailwind-color">Tailwind CSS</button>
+                            <button class="pill-button csharp-color">C#</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="projects-list-container">
                 <a id="portfolio"></a>
                 <div class="project-container">

@@ -7,7 +7,7 @@
             </div>
             <div class="nav-top-dropdown-menu-container" id="dropdown-menu-container">
                 <ul>
-                    <li><a href="about-me.php">About Me</a></li>
+                    <li><a href="index.php#about-me">About Me</a></li>
                     <li><a href="index.php#portfolio">My Portfolio</a></li>
                     <li><a href="coding-examples.php">Coding Examples</a></li>
                     <li><a href="scs-scheme.php">SCS Scheme</a></li>
@@ -21,7 +21,7 @@
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="about-me.php">About Me</a></li>
+                    <li><a href="index.php#about-me">About Me</a></li>
                     <li><a href="index.php#portfolio">My Portfolio</a></li>
                     <li><a href="coding-examples.php">Coding Examples</a></li>
                     <li><a href="scs-scheme.php">SCS Scheme</a></li>

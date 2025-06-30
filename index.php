@@ -37,7 +37,7 @@ include('inc/connection.php');
                     </div>
                 </div>
                 <div class="scroll-down">
-                    <h3>Scroll down to see my projects!</h3>
+                    <a href="index.php#portfolio">Click me to see my projects!</a>
                 </div>
             </div>
         </header>

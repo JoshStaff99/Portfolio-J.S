@@ -37,13 +37,27 @@
 
 .scroll-down {
     position: absolute;
-    color: white;
+    color: #fff;
     display: flex;
     align-self: center;
     text-align: center;
     margin: auto;
-    padding: 0;
+    margin-bottom: 15px;
     bottom: 0;
+    a {
+        margin: auto;
+        border: 1px solid rgba(255, 255, 255, 0.0509803922);
+        border-radius: 5px;
+        background-color: #0d0d0d;
+        padding: 15px;
+        bottom: 0;
+        color: #fff;
+    }
+}
+
+// Hover Effect
+.scroll-down:hover {
+    a {background-color: #393939;}
 }
 
 // Media Queries

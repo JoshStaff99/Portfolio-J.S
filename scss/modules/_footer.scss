@@ -22,7 +22,12 @@
 }
 
 .back-to-top-btn {
-    color: #ffffff;
+    padding: 15px;
+    width: 250px;
+    border: 1px solid #ffffff0d;
+    border-radius: 5px;
+    background-color: #ffffff0d;
+    color: #fff;
 }
 
 .copyright-footer {
@@ -32,6 +37,11 @@
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+// Hover Effect
+.back-to-top-btn:hover {
+    background-color: #ffffff1c;
 }
 
 // Media Queries
